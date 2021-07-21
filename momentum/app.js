@@ -1,9 +1,5 @@
-const a = 5;
-const b = 2;
+// null과  undefined//
 
-const myName = "nico";
-
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
-console.log("hello " + myName);
+const amIFat = null;
+let something;
+console.log(something, amIFat);
