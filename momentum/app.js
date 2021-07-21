@@ -1,5 +1,9 @@
-// null과  undefined//
+const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
 
-const amIFat = null;
-let something;
-console.log(something, amIFat);
+//Get Item from Array
+console.log(daysOfWeek);
+
+// Add one more day to the array
+daysOfWeek.push("sun");
+
+console.log(daysOfWeek);
