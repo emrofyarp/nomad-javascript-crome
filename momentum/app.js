@@ -1,9 +1,7 @@
-const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
+const toBuy = ["patato", "tomato", "pizza"];
+toBuy.push("kimbab");
 
-//Get Item from Array
-console.log(daysOfWeek);
+console.log(toBuy);
 
-// Add one more day to the array
-daysOfWeek.push("sun");
-
-console.log(daysOfWeek);
+console.log(toBuy[2]);
+console.log(toBuy[294654654654]);
