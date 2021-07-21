@@ -10,6 +10,5 @@ console.log(player.name);
 console.log(player["points"]);
 
 console.log(player);
-player.fat = false;
+player.lastName = "potato";
 console.log(player);
-console.log(player["fat"]);
