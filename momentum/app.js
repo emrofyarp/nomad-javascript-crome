@@ -1,7 +1,15 @@
-const toBuy = ["patato", "tomato", "pizza"];
-toBuy.push("kimbab");
+const player = {
+  name: "nico",
+  points: 121212,
+  handsome: false,
+  fat: "little bit",
+};
 
-console.log(toBuy);
+console.log(player);
+console.log(player.name);
+console.log(player["points"]);
 
-console.log(toBuy[2]);
-console.log(toBuy[294654654654]);
+console.log(player);
+player.fat = false;
+console.log(player);
+console.log(player["fat"]);
